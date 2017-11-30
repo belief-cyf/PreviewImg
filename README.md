@@ -7,7 +7,7 @@ react PreviewImg component, support PC or mobile
 组件属性：
 
 | 属性           | 说明           | 类型  | 默认值  |
-| :-:   |:-------------| :-:| :-:  |
+| :-:   |:-------------| :-| :-  |
 | breviaryImgSrc        | 显示的缩略图地址 | string     |  null|
 | inModal        | 是否在modal中展示图片预览区域  false时则直接显示图片 并支持放大缩小,需限制组件父容器的宽高并设置溢出隐藏，不然图片支持无限放大 | bool     |  true|
 | src        | 传入的图片源 图片源要可以跨域访问 | string     |  http://youimg1.c-ctrip.com/target/tg/730/879/156/0d001cbaa3794f879ceab648b513107a.jpg|
